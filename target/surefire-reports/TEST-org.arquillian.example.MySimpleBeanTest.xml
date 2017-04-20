@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="29.908" errors="1" skipped="0" tests="1" name="org.arquillian.example.MySimpleBeanTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_17\jre\bin"/>
+    <property name="java.vm.version" value="23.7-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\java\arquillian"/>
+    <property name="java.runtime.version" value="1.7.0_17-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_17\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\java\apache-maven-3.2.5\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_17\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files (x86)\MySQL\MySQL Utilities 1.4.4\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.4.4\Doctrine extensions for PHP\;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\3.4\bin;D:\java\forge-distribution-1.4.3.Final\bin;D:\java\apache-maven-3.2.5\bin;D:\java\jboss-as-7.1.1.Final\bin;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="D:\java\apache-maven-3.2.5\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_17\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Parquillian-jbossas-managed"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_17"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_17\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_17\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_17\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\java\apache-maven-3.2.5\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="29.908" classname="org.arquillian.example.MySimpleBeanTest" name="should_be_deployed">
+    <error message="Cannot obtain Arquillian config for: org.arquillian.example.MySimpleBeanTest" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Cannot obtain Arquillian config for: org.arquillian.example.MySimpleBeanTest
+	at org.jboss.as.arquillian.service.ArquillianService.getArquillianConfig(ArquillianService.java:183)
+	at org.jboss.as.arquillian.service.ArquillianService.getArquillianConfig(ArquillianService.java:193)
+	at org.jboss.as.arquillian.service.ArquillianService.access$300(ArquillianService.java:69)
+	at org.jboss.as.arquillian.service.ArquillianService$ExtendedJMXTestRunner.runTestMethod(ArquillianService.java:222)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(StandardMBeanIntrospector.java:111)
+	at com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(StandardMBeanIntrospector.java:45)
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:235)
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:792)
+	at org.jboss.as.jmx.PluggableMBeanServerImpl$TcclMBeanServer.invoke(PluggableMBeanServerImpl.java:498)
+	at org.jboss.as.jmx.PluggableMBeanServerImpl.invoke(PluggableMBeanServerImpl.java:246)
+	at org.jboss.remotingjmx.protocol.v1.ServerProxy$InvokeHandler.handle(ServerProxy.java:1034)
+	at org.jboss.remotingjmx.protocol.v1.ServerProxy$MessageReciever$1.run(ServerProxy.java:215)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+</error>
+    <system-out>17:38:09,987 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016009: Stopping weld service for deployment 9abb9f6d-724e-421d-a8df-bf024254db60.jar
+17:38:09,997 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment 9abb9f6d-724e-421d-a8df-bf024254db60.jar in 19ms
+17:38:10,161 INFO  [org.jboss.as.repository] (management-handler-thread - 3) JBAS014901: Content removed from location D:\java\jboss-as-7.1.1.Final\standalone\data\content\79\2d847738415f9adf86b4fea2ff8771e0b0e217\content
+17:38:10,165 INFO  [org.jboss.as.server] (management-handler-thread - 3) JBAS018558: Undeployed &quot;9abb9f6d-724e-421d-a8df-bf024254db60.jar&quot;
+17:38:10,235 INFO  [org.jboss.as.repository] (management-handler-thread - 1) JBAS014900: Content added at location D:\java\jboss-as-7.1.1.Final\standalone\data\content\6d\58c86492221803d44a952672ee0721758e5a6d\content
+17:38:39,694 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016009: Stopping weld service for deployment test.jar
+17:38:39,705 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment test.jar in 14ms
+17:38:39,721 INFO  [org.jboss.as.repository] (management-handler-thread - 2) JBAS014901: Content removed from location D:\java\jboss-as-7.1.1.Final\standalone\data\content\83\433855762e844fc6cec9c5e192d79cdc0f006e\content
+17:38:39,722 INFO  [org.jboss.as.server] (management-handler-thread - 2) JBAS018558: Undeployed &quot;test.jar&quot;
+17:38:39,758 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment arquillian-service in 8ms
+17:38:39,772 INFO  [org.jboss.as.repository] (management-handler-thread - 3) JBAS014901: Content removed from location D:\java\jboss-as-7.1.1.Final\standalone\data\content\13\c3435171563ca050b40cd492f06daf6c0eee29\content
+17:38:39,773 INFO  [org.jboss.as.server] (management-handler-thread - 3) JBAS018558: Undeployed &quot;arquillian-service&quot;
+17:38:40,517 WARN  [org.jboss.remotingjmx.protocol.v1.ServerProxy] (pool-5-thread-2) Failure removing notification listener: javax.management.InstanceNotFoundException: jboss.arquillian:service=jmx-test-runner
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1095) [rt.jar:1.7.0_17]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getClassLoaderFor(DefaultMBeanServerInterceptor.java:1444) [rt.jar:1.7.0_17]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.getClassLoaderFor(JmxMBeanServer.java:1309) [rt.jar:1.7.0_17]
+	at org.jboss.as.jmx.PluggableMBeanServerImpl$TcclMBeanServer.pushClassLoader(PluggableMBeanServerImpl.java:588)
+	at org.jboss.as.jmx.PluggableMBeanServerImpl$TcclMBeanServer.removeNotificationListener(PluggableMBeanServerImpl.java:527)
+	at org.jboss.as.jmx.PluggableMBeanServerImpl.removeNotificationListener(PluggableMBeanServerImpl.java:296)
+	at org.jboss.remotingjmx.protocol.v1.ServerProxy$RemoteNotificationManager.removeNotificationListener(ServerProxy.java:308)
+	at org.jboss.remotingjmx.protocol.v1.ServerProxy$RemoteNotificationManager.removeNotificationListeners(ServerProxy.java:318)
+	at org.jboss.remotingjmx.protocol.v1.ServerProxy$RemoteNotificationManager.access$4500(ServerProxy.java:278)
+	at org.jboss.remotingjmx.protocol.v1.ServerProxy$RemoveNotificationListenerHandler.handle(ServerProxy.java:1118)
+	at org.jboss.remotingjmx.protocol.v1.ServerProxy$MessageReciever$1.run(ServerProxy.java:215)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_17]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_17]
+	at java.lang.Thread.run(Thread.java:722) [rt.jar:1.7.0_17]
+
+</system-out>
+    <system-err>四月 20, 2017 5:38:40 下午 org.jboss.arquillian.protocol.jmx.JMXMethodExecutor invoke
+SEVERE: Failed: org.arquillian.example.MySimpleBeanTest.should_be_deployed
+java.lang.IllegalStateException: Cannot obtain Arquillian config for: org.arquillian.example.MySimpleBeanTest
+	at org.jboss.as.arquillian.service.ArquillianService.getArquillianConfig(ArquillianService.java:183)
+	at org.jboss.as.arquillian.service.ArquillianService.getArquillianConfig(ArquillianService.java:193)
+	at org.jboss.as.arquillian.service.ArquillianService.access$300(ArquillianService.java:69)
+	at org.jboss.as.arquillian.service.ArquillianService$ExtendedJMXTestRunner.runTestMethod(ArquillianService.java:222)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(StandardMBeanIntrospector.java:111)
+	at com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(StandardMBeanIntrospector.java:45)
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:235)
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:792)
+	at org.jboss.as.jmx.PluggableMBeanServerImpl$TcclMBeanServer.invoke(PluggableMBeanServerImpl.java:498)
+	at org.jboss.as.jmx.PluggableMBeanServerImpl.invoke(PluggableMBeanServerImpl.java:246)
+	at org.jboss.remotingjmx.protocol.v1.ServerProxy$InvokeHandler.handle(ServerProxy.java:1034)
+	at org.jboss.remotingjmx.protocol.v1.ServerProxy$MessageReciever$1.run(ServerProxy.java:215)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+</system-err>
+  </testcase>
+</testsuite>
